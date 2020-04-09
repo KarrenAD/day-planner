@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+
+      <div class = "row">
+        <div class = "col-md-3">
+          <p>Time</p>
+        </div>
+        <div class = "col-md-6">
+          <p>Event</p>
+        </div>
+        <div class = "col-md-3">
+          <p>Save</p>
+        </div>
+      </div>
+
+      <div class = "row" data-time = "9">
+        <div class = "col-md-3">
+          <p>0900</p>
+        </div>
+        <div class = "col-md-6">
+          <textarea id = "nine" class = "event-field"></textarea>
+        </div>
+        <div class = "col-md-3"><button type="submit" class="btn btn-primary">💾</button></div>
+      </div>
+
+      <div class = "row" data-time = "10">
+        <div class = "col-md-3">
+          <p>1000</p>
+        </div>
+        <div class = "col-md-6">
+          <textarea id = "ten" class = "event-field"></textarea>
+        </div>
+        <div class = "col-md-3"><button type="submit" class="btn btn-primary">💾</button></div>
+      </div>
+
+      <div class = "row" data-time = "11">
+        <div class = "col-md-3">
+          <p>1100</p>
+        </div>
+        <div class = "col-md-6">
+          <textarea id = "eleven" class = "event-field"></textarea>
+        </div>
+        <div class = "col-md-3"><button type="submit" class="btn btn-primary">💾</button></div>
+      </div>
+
+      <div class = "row" data-time = "12">
+        <div class = "col-md-3">
+          <p>1200</p>
+        </div>
+        <div class = "col-md-6">
+          <textarea id = "twelve" class = "event-field"></textarea>
+        </div>
+        <div class = "col-md-3"><button type="submit" class="btn btn-primary">💾</button></div>
+      </div>
+
+      <div class = "row" data-time = "13">
+        <div class = "col-md-3">
+          <p>1300</p>
+        </div>
+        <div class = "col-md-6">
+          <textarea id = "thirteen" class = "event-field "></textarea>
+        </div>
+        <div class = "col-md-3"><button type="submit" class="btn btn-primary">💾</button></div>
+      </div>
+
+      <div class = "row" data-time = "14">
+        <div class = "col-md-3">
+          <p>1400</p>
+        </div>
+        <div class = "col-md-6">
+          <textarea id = "fourteen" class = "event-field"></textarea>
+        </div>
+        <div class = "col-md-3"><button type="submit" class="btn btn-primary">💾</button></div>
+      </div>
+
+      <div class = "row" data-time = "15">
+        <div class = "col-md-3">
+          <p>1500</p>
+        </div>
+        <div class = "col-md-6">
+          <textarea id = "fifteen" class = "event-field"></textarea>
+        </div>
+        <div class = "col-md-3"><button type="submit" class="btn btn-primary">💾</button></div>
+      </div>
+
+      <div class = "row" data-time = "16">
+        <div class = "col-md-3">
+          <p>1600</p>
+        </div>
+        <div class = "col-md-6">
+          <textarea id = "sixteen" class = "event-field"></textarea>
+        </div>
+        <div class = "col-md-3"><button type="submit" class="btn btn-primary">💾</button></div>
+      </div>
+
+      <div class = "row" data-time = "17">
+        <div class = "col-md-3">
+          <p>1700</p>
+        </div>
+        <div class = "col-md-6">
+          <textarea id = "seventeen" class = "event-field"></textarea>
+        </div>
+        <div class = "col-md-3"><button type="submit" class="btn btn-primary">💾</button></div>
+      </div>
+      
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script type = "text/javascript" src="script.js"></script>
+  </body>
+</html>
