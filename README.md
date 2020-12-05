@@ -9,4 +9,4 @@ Day planner that uses moment.js for color coded time blocks.
 
 - "EVENT LISTENER" SAVES <TEXTAREA> CONTENT TO LOCAL STORAGE TO PERSIST THROUGH BROWSER REFRESH
 
-https://karrenad.github.io/day-planner/
+https://austinkarren.github.io/day-planner/
